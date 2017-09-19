@@ -42,7 +42,7 @@ Congratulations! We're ready to get the project files.
 A 'Create Container' dialog should appear. Sit tight.
 
 - After 2-3 minutes, the dialog should close and a file structure should appear on the left.
-- Expand the src/check_setup folder.
+- Expand the lab/src/check_setup folder.
 - Right-click on check_setup.html and click 'Preview'
 - A web page should open with the text 'It Works!' and an image.
 
