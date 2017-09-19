@@ -33,7 +33,7 @@ Congratulations! We're ready to get the project files.
 - Login to CodeAnywhere and visit https://codeanywhere.com/editor/
 - A 'Connection Wizard' dialog should appear
 - In the list on the left of the wizard, click 'Git from URL'.
-- Paste the following link into the textbox that appears: https://github.com/andrewtyped/montessori-pres.git
+- Paste the following link into the textbox that appears: https://github.com/andrewtyped/intro-to-programming.git
 - Click 'NEXT'
 - Type a name for the project. 'programming lab', maybe.
 - Next, we need to select the 'Stack' for the project. I'll explain this later. Scroll or search the list for 'HTML', and select the row that says 'Ubuntu' on the right. 
