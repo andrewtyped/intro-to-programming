@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='UTF-8' />
+    <link rel='stylesheet' href='css/styles.css' type='text/css' />
+    <title>Programming Lab</title>
+</head>
+
+<body>
+    <div class='header'>
+        <h1 class='header-text'>Programming Lab</h1>
+    </div>
+
+    <div class='body'>
+        <div class='grid'>
+            <div class='column-1'>
+                <h2 class='sub-header-text'>Build a Shape</h2>
+                <form class='point-entry-form'>
+                    <fieldset class='point-entry-fieldset'>
+                        <label class='label'>Coordinates</label>
+                        <span class='form-field-wrapper'>
+                            <input type='text' id='points' class='form-field' />
+                        </span>
+                    </fieldset>
+
+                    <fieldset class='point-entry-fieldset'>
+                        <label class='label'>Bounds</label>
+                        <span class='form-field-wrapper'>
+                            <input type='text' id='bounding-coordinates' class='form-field' />
+                        </span>
+                    </fieldset>
+
+                    <fieldset class='point-entry-fieldset'>
+                        <label class='label'></label>
+                        <span class='form-field-wrapper'>
+                            <button id='draw-button' class='form-btn' type='button'>Draw!</button>
+                        </span>
+                    </fieldset>
+                </form>
+            </div>
+
+            <div id='canvas-container' class='column-2'>
+                <canvas id='canvas'></canvas>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script type='text/javascript' src='js/models.js'></script>
+    <script type='text/javascript' src='js/point_parser.js'></script>
+    <script type='text/javascript' src='js/site_controller.js'></script>
+</body>
+
+</html>
